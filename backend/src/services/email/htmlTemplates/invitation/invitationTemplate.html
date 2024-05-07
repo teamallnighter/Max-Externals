@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .email-container {
+        max-width: 600px;
+        margin: auto;
+        background-color: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .email-header {
+        background-color: #3498db;
+        color: #fff;
+        padding: 16px;
+        text-align: center;
+      }
+      .email-body {
+        padding: 16px;
+      }
+      .email-footer {
+        padding: 16px;
+        background-color: #f7fafc;
+        text-align: center;
+        color: #4a5568;
+        font-size: 14px;
+      }
+      .btn-primary {
+        background-color: #3498db;
+        color: #fff !important;
+        padding: 8px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="email-header">Welcome to {appTitle}!</div>
+      <div class="email-body">
+        <p>Hello,</p>
+        <p>
+          You've been invited to join {appTitle}. Please click the button below
+          to set up your account.
+        </p>
+        <a href="{signupUrl}" class="btn-primary">Set up account</a>
+      </div>
+      <div class="email-footer">
+        Thanks,<br />
+        The {appTitle} Team
+      </div>
+    </div>
+  </body>
+</html>
