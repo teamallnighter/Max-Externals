@@ -63,11 +63,27 @@ const PostsData = [
 
 const DevicesData = [
   {
-    title: 'Max von Laue',
+    title: 'Richard Feynman',
 
-    price: 46.33,
+    price: 85.86,
 
-    description: 'Antoine Laurent Lavoisier',
+    description: 'Konrad Lorenz',
+
+    // type code here for "images" field
+
+    // type code here for "relation_one" field
+
+    category: 'max_for_live_devices',
+
+    is_free: false,
+  },
+
+  {
+    title: 'Claude Levi-Strauss',
+
+    price: 40.11,
+
+    description: 'Anton van Leeuwenhoek',
 
     // type code here for "images" field
 
@@ -79,59 +95,27 @@ const DevicesData = [
   },
 
   {
-    title: 'Werner Heisenberg',
+    title: 'Ernst Mayr',
 
-    price: 93.33,
+    price: 98.38,
 
-    description: 'James Watson',
+    description: 'Richard Feynman',
 
     // type code here for "images" field
 
     // type code here for "relation_one" field
 
-    category: 'max_msp_externals',
+    category: 'max_for_live_devices',
 
     is_free: true,
   },
 
   {
-    title: 'Enrico Fermi',
+    title: 'Paul Dirac',
 
-    price: 46.57,
+    price: 22.59,
 
-    description: 'Linus Pauling',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-
-    category: 'max_for_live_devices',
-
-    is_free: false,
-  },
-
-  {
-    title: 'Alfred Binet',
-
-    price: 78.81,
-
-    description: 'Edward Teller',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-
-    category: 'max_for_live_devices',
-
-    is_free: false,
-  },
-
-  {
-    title: 'William Harvey',
-
-    price: 38.04,
-
-    description: 'Hans Selye',
+    description: 'Gertrude Belle Elion',
 
     // type code here for "images" field
 
@@ -140,6 +124,22 @@ const DevicesData = [
     category: 'max_msp_externals',
 
     is_free: false,
+  },
+
+  {
+    title: 'Stephen Hawking',
+
+    price: 19.38,
+
+    description: 'Francis Crick',
+
+    // type code here for "images" field
+
+    // type code here for "relation_one" field
+
+    category: 'max_for_live_devices',
+
+    is_free: true,
   },
 ];
 
@@ -151,7 +151,7 @@ const StudiosData = [
 
     // type code here for "relation_one" field
 
-    externalwebsite: 'Rudolf Virchow',
+    externalwebsite: 'Konrad Lorenz',
   },
 
   {
@@ -161,7 +161,7 @@ const StudiosData = [
 
     // type code here for "relation_one" field
 
-    externalwebsite: 'Richard Feynman',
+    externalwebsite: 'Thomas Hunt Morgan',
   },
 
   {
@@ -171,7 +171,7 @@ const StudiosData = [
 
     // type code here for "relation_one" field
 
-    externalwebsite: 'Anton van Leeuwenhoek',
+    externalwebsite: 'Jonas Salk',
   },
 
   {
@@ -181,7 +181,7 @@ const StudiosData = [
 
     // type code here for "relation_one" field
 
-    externalwebsite: 'Konrad Lorenz',
+    externalwebsite: 'Ernst Mayr',
   },
 
   {
@@ -191,7 +191,7 @@ const StudiosData = [
 
     // type code here for "relation_one" field
 
-    externalwebsite: 'Neils Bohr',
+    externalwebsite: 'Charles Darwin',
   },
 ];
 
